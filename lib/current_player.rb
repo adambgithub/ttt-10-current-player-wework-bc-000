@@ -56,10 +56,18 @@ end
 
 def current_player(board)
   if turn_count(board).even?
+<<<<<<< HEAD
     "X"
   else
     "O"
   end
+=======
+    puts "X"
+  else
+    puts "O"
+  end
+  current_player(board)
+>>>>>>> e19aaa5b921fa58a7c052c47227002c175a7a1ec
 end
 
 
